@@ -3,6 +3,7 @@
   --color-white1: rgb(233, 233, 233);
   --color-gray1: rgb(128, 128, 128);
   --color-gray2: rgb(253, 253, 253);
+  --color-black0: rgb(39, 41, 43);
   --color-black1: rgb(58, 61, 64);
   --color-black2: rgb(74, 77, 80);
 }
@@ -22,11 +23,14 @@
   font-style: italic;
 }
 
+.cust-jkaros:hover {
+  color: teal;
+}
+
 .cust-nav-font-color {
   color: rgb(212, 212, 212);
 }
 
-/* Overrides Bootstrap - Creates border by using box shadow with no blur. */
 .nav-item {
   list-style: none;
   box-shadow: 1px 0px rgb(48, 48, 50), 2px 0px rgb(66, 69, 71);
@@ -36,4 +40,12 @@
 .home {
   box-shadow: -1px 0px rgb(48, 48, 50), -2px 0px rgb(66, 69, 71), 1px 0px rgb(48, 48, 50),
     2px 0px rgb(66, 69, 71);
+}
+
+.nav-item:hover {
+  background-color: var(--color-black0);
+}
+
+a:hover {
+  color: green;
 }
