@@ -6,6 +6,10 @@
   --color-black2: rgb(74, 77, 80);
 }
 
+.navbar {
+  border-bottom: 4px solid var(--color-black2);
+}
+
 .cust-nav-bg {
   background-color: var(--color-black1);
 }
