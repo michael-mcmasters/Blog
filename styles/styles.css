@@ -10,18 +10,18 @@
   background-color: var(--color-black1);
 }
 
-/* Create border by using box shadow with no blur. */
+.cust-nav-font-color {
+  color: rgb(212, 212, 212);
+}
+
+/* Overrides Bootstrap - Creates border by using box shadow with no blur. */
 .nav-item {
   list-style: none;
   box-shadow: 1px 0px rgb(48, 48, 50), 2px 0px rgb(66, 69, 71);
 }
 
-/* Home needs border on left and right side. */
+/* Gives Home a border (using box shadow) on its left and right side */
 .home {
   box-shadow: -1px 0px rgb(48, 48, 50), -2px 0px rgb(66, 69, 71), 1px 0px rgb(48, 48, 50),
     2px 0px rgb(66, 69, 71);
-}
-
-.cust-nav-color {
-  color: rgb(212, 212, 212);
 }
