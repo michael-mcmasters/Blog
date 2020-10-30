@@ -1,5 +1,6 @@
 /* The lower the number, the darker the shade of color */
 .color-theme {
+  --color-white1: rgb(233, 233, 233);
   --color-gray1: rgb(128, 128, 128);
   --color-gray2: rgb(253, 253, 253);
   --color-black1: rgb(58, 61, 64);
@@ -12,6 +13,13 @@
 
 .cust-nav-bg {
   background-color: var(--color-black1);
+}
+
+.cust-jkaros {
+  color: var(--color-white1);
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .cust-nav-font-color {
