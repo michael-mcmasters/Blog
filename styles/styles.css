@@ -1,0 +1,8 @@
+.navbar-custom {
+  background-color: rgb(43, 45, 48);
+}
+
+.nav-item {
+  border-left: 1px solid rgb(45, 48, 50);
+  border-right: 1px solid rgb(58, 61, 64);
+}
