@@ -54,16 +54,33 @@ body {
     2px 0px rgb(66, 69, 71);
 }
 
+.nav-item:focus,
 .nav-item:hover {
   background-color: var(--color-black0);
 }
 
+a:focus,
 a:hover {
   color: green;
 }
 
 .card {
   background-color: var(--color-gray2);
+    position: relative;
+  left: 0x;
+  bottom: 0px;
+  
+  
+  transition: 0.2s;
+}
+
+.card:focus,
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(214, 214, 214); 
+  position: relative;
+  left: 10x;
+  bottom: 10px;
 }
 
 .cust-card-body-container {
@@ -80,10 +97,11 @@ a:hover {
 }
 
 .cust-card-footer {
+  padding-top: 10px;
+  border-top: 1px dotted black;
   color: rgb(153, 153, 153);
   font-size: 0.8em;
-  border-top: 1px dotted black;
-  padding-top: 10px;
+  
   display: flex;
   justify-content: space-between;
 }
