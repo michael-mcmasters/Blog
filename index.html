@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/429e9e2ae6.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="color-theme">
@@ -42,7 +45,7 @@
     </nav>
 
     <div class="container mt-4">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-4">
                 <h3>First Title</h3>
                 <div>First body</div>
@@ -55,12 +58,28 @@
                 <h3>Third Title</h3>
                 <div>Third</div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Cards Columns don't work with the regular column classes (such as col-md-4). Need to use @media queries. -->
         <div class="card-columns">
             <div class="card">
                 <img class="card-img-top" src="./images/beach.jpg" alt="Card image cap">
+                <div class="cust-card-body-container m-3">
+                    <h6 class="cust-card-title">Ullamcorper jke idid</h6>
+                    <p class="cust-card-body">This is the card body. Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Vitae inventore
+                        ducimus veritatis accusamus, aliquid sapiente delectus placeat, vero suscipit eligendi deserunt
+                        sint nihil incidunt quae architecto doloremque, corporis expedita iste?</p>
+                    <footer class="cust-card-footer color">
+                        <span>17, January 2020.</span>
+                        <!-- Font Awesome icons must be in a div to stay centered -->
+                        <div>
+                            <i class="fas fa-comments"></i>
+                            <span class="ml-1">23</span>
+                        </div>
+                    </footer>
+                </div>
             </div>
             <div class="card p-3">
                 <blockquote class="blockquote mb-0 card-body">

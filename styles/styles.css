@@ -8,6 +8,18 @@
   --color-black2: rgb(74, 77, 80);
 }
 
+.color-gray1 {
+  color: var(--color-gray1);
+}
+
+.color-gray2 {
+  color: var(--color-gray2);
+}
+
+body {
+  background-color: rgv(253, 253, 253);
+}
+
 .navbar {
   border-bottom: 4px solid var(--color-black2);
 }
@@ -48,6 +60,27 @@
 
 a:hover {
   color: green;
+}
+
+.card {
+  background-color: var(--color-gray2);
+}
+
+.cust-card-body {
+  font-size: 0.9em;
+}
+
+.card-img-top {
+  /* height: 200px; */
+}
+
+.cust-card-footer {
+  color: rgb(153, 153, 153);
+  font-size: 0.8em;
+  border-top: 1px dotted black;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
