@@ -183,6 +183,18 @@ a:hover {
   height: 200px;
 }
 
+.cust-bottom-nav {
+  background-color: rgb(47, 50, 53);
+  padding: 1.5rem;
+}
+
+.cust-nav-content {
+  /* Add margin to center it. Adding padding to parent div was putting it out of line for some reason. */
+  margin-bottom: 6px;
+  color: rgb(175, 175, 175);
+  font-size: 0.8rem;
+}
+
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
    They must be defined with @media keys.
    Source: First answer - @https://stackoverflow.com/questions/34140793/bootstrap-4-responsive-cards-in-card-columns/43117538#43117538
