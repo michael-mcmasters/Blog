@@ -139,6 +139,24 @@ a:hover {
   cursor: pointer;
 }
 
+/* .cust-footer-background {
+  background-color: var(--color-black1);
+}
+
+.cust-foot-header {
+  color: var(--color-white1);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.cust-footer-body {
+  margin-top: 1em;
+  padding-bottom: 1.4em;
+  border-bottom: 0.5px dotted rgb(78, 78, 78);
+  color: var(--color-gray1);
+  font-size: 0.9rem;;
+} */
+
 .cust-footer-background {
   background-color: var(--color-black1);
 }
