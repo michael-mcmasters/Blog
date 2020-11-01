@@ -16,6 +16,10 @@
   color: var(--color-gray2);
 }
 
+.color-white1 {
+  color: var(--color-white1);
+}
+
 body {
   background-color: rgv(253, 253, 253);
 }
@@ -135,7 +139,7 @@ a:hover {
   cursor: pointer;
 }
 
-.footer-background {
+.cust-footer-background {
   background-color: var(--color-black0);
 }
 
