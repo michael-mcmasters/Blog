@@ -39,6 +39,14 @@ body {
   color: teal;
 }
 
+.cust-nav-menu-icon {
+  color: var(--color-white1);
+  font-size: 1.8rem;
+  
+  display: flex;
+  align-items: center;
+}
+
 .cust-nav-font-color {
   color: rgb(212, 212, 212);
 }
