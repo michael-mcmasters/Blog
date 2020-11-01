@@ -161,6 +161,11 @@ a:hover {
   background-color: var(--color-black1);
 }
 
+.cust-footer-content-container {
+  padding-bottom: 1rem;
+  border-bottom: 0.5px dotted rgb(80, 82, 85);
+}
+
 .cust-foot-header {
   color: var(--color-white1);
   font-weight: bold;
@@ -168,11 +173,15 @@ a:hover {
 }
 
 .cust-footer-body {
-  margin-top: 1em;
-  padding-bottom: 1.4em;
-  border-bottom: 0.5px dotted rgb(78, 78, 78);
-  color: var(--color-gray1);
-  font-size: 0.9rem;;
+  margin-top: 1.2em;
+  color: rgb(175, 175, 175);
+  font-size: 0.9rem;
+}
+
+.cust-footer-date {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+  color: rgb(102, 107, 112);
 }
 
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
