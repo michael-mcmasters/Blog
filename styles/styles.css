@@ -188,6 +188,17 @@ a:hover {
   color: rgb(118, 149, 169);
 }
 
+.cust-footer-input {
+  margin-bottom: 0.9rem;
+  background-color: rgb(39, 41, 43);
+  border: none;
+  width: 90%;
+  height: 2rem;
+}
+.cust-footer-input-last {
+  height: 200px;
+}
+
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
    They must be defined with @media keys.
    Source: First answer - @https://stackoverflow.com/questions/34140793/bootstrap-4-responsive-cards-in-card-columns/43117538#43117538

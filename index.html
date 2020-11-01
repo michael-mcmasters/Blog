@@ -295,7 +295,7 @@
 
     <!-- Footer -->
     <!-- Like the navbar. Must put background of footer outside of container. Put content in the container so that it uses flexbox and has margins on left and right sides -->
-    <div class="cust-footer-background pt-4 pb-5 mt-5">
+    <div class="cust-footer-background pt-5 pb-5 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-3">
@@ -361,6 +361,15 @@
                 </div>
                 <div class="col-3">
                     <h6 class="cust-foot-header">CONTACT FORM</h6>
+                    <div class="cust-footer-body">
+                        <form action="contact-form.html" method="post">
+                            <input type="text" id="first-text-box" name="first-text-box" class="cust-footer-input">
+                            <input type="text" id="second-text-box" name="second-text-box" class="cust-footer-input">
+                            <input type="text" id="third-text-box" name="third-text-box"
+                                class="cust-footer-input cust-footer-input-last">
+                        </form>
+                        <button type="submit" class="cust-button">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
