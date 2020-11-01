@@ -126,6 +126,13 @@ a:hover {
   background-image: linear-gradient(rgb(153, 199, 228), rgb(111, 153, 180));
   border: 1px solid rgb(82, 118, 140);
   border-radius: 2px;
+  
+  transition: 0.2s;
+}
+
+.cust-button:hover {
+  background-image: linear-gradient(rgb(89, 130, 155), rgb(37, 72, 94));
+  cursor: pointer;
 }
 
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
