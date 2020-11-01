@@ -66,13 +66,31 @@
 
 /* ------- Content Body ------- */
 
-img {
+.c-main-content-image {
     margin: 2rem 0;
     width: 100%;
-    height: 40%;
+    height: 400px;
 }
 
 .c-main-content-body {
     font-size: 0.9rem;
     padding: 1rem 0;
+}
+
+
+
+
+/* ------- Related Posts ------- */
+
+.c-related-posts-container {
+    
+    margin-bottom: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-related-posts-container > img {
+    width: 23%;
+    height: 100px;
 }
