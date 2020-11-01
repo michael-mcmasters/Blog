@@ -1,0 +1,175 @@
+.cust-card-border-bottom {
+  padding-bottom: 3.5em;
+  border-bottom: 1px dotted gray;
+}
+
+.card {
+  background-color: var(--color-gray2);
+    position: relative;
+  left: 0x;
+  bottom: 0px;
+  
+  
+  transition: 0.2s;
+}
+
+.card:focus,
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(214, 214, 214); 
+  position: relative;
+  left: 10x;
+  bottom: 10px;
+}
+
+.cust-card-body-container {
+  margin: 1.1em 1.1em 0.7rem 1.1em;
+}
+
+.cust-card-body {
+  margin-top: 0.8em;
+  font-size: 0.9em;
+}
+
+.card-img-top {
+  /* height: 200px; */
+}
+
+.cust-card-footer {
+  padding-top: 10px;
+  border-top: 1px dotted black;
+  color: rgb(153, 153, 153);
+  font-size: 0.8em;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.cust-button {
+  padding: 0.2rem 1.4rem;
+  font-size: 0.9rem;
+  color: white;
+  background-image: linear-gradient(rgb(153, 199, 228), rgb(111, 153, 180));
+  border: 1px solid rgb(82, 118, 140);
+  border-radius: 2px;
+  
+  transition: 0.2s;
+}
+
+.cust-button:hover {
+  background-image: linear-gradient(rgb(89, 130, 155), rgb(37, 72, 94));
+  cursor: pointer;
+}
+
+.cust-footer-background {
+  background-color: var(--color-black1);
+  border-top: 5px solid rgb(47, 50, 53);
+  border-bottom: 3px solid rgb(47, 50, 53);
+}
+
+.cust-footer-border-bottom {
+  padding-bottom: 1rem;
+  border-bottom: 0.5px dotted rgb(80, 82, 85);
+}
+
+.cust-foot-header {
+  color: var(--color-white1);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.cust-footer-body {
+  margin-top: 1.2em;
+  color: rgb(175, 175, 175);
+  font-size: 0.9rem;
+}
+
+.cust-footer-date {
+  margin-top: 0.7rem;
+  font-size: 0.7rem;
+  color: rgb(102, 107, 112);
+}
+
+.cust-footer-age-url {
+  color: rgb(118, 149, 169);
+}
+
+.cust-footer-input {
+  margin-bottom: 0.9rem;
+  background-color: rgb(39, 41, 43);
+  border: none;
+  width: 100%;
+  height: 2rem;
+}
+.cust-footer-input-last {
+  height: 200px;
+}
+
+.cust-bottom-nav {
+  background-color: rgb(47, 50, 53);
+  padding: 1.5rem;
+}
+
+.cust-nav-content {
+  /* Add margin to center it. Adding padding to parent div was putting it out of line for some reason. */
+  margin-bottom: 6px;
+  color: rgb(175, 175, 175);
+  font-size: 0.8rem;
+}
+
+.elemis-url {
+  color: rgb(116, 148, 168);
+}
+
+.cust-icon-container {
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+                    
+.fa-rss {
+  background-color: rgb(248, 144, 46);
+  padding: 0.4em;
+}
+.fa-facebook-f {
+  background-color: rgb(57, 89, 159);
+  padding: 0.4em;
+}
+
+/* Use custom class instead of fa-twitter so that this doesn't style twitter icon used elsewhere */
+.twitter-icon {
+  background-color: rgb(69, 176, 227);
+  padding: 0.4em;
+}
+.fa-instagram {
+  background-color: rgb(217, 122, 176);
+  padding: 0.4em;
+}
+.fa-pinterest-p {
+  background-color: rgb(204, 33, 44);
+  padding: 0.4em;
+}
+.fa-linkedin-in {
+  background-color: rgb(83, 143, 228);
+  padding: 0.4em;
+}
+
+/* Cards Columns don't work with the regular column classes (col-md-4 for example)
+   They must be defined with @media keys.
+   Source: First answer - @https://stackoverflow.com/questions/34140793/bootstrap-4-responsive-cards-in-card-columns/43117538#43117538
+*/
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
