@@ -6,7 +6,6 @@
   --color-black0: rgb(39, 41, 43);
   --color-black1: rgb(58, 61, 64);
   --color-black2: rgb(74, 77, 80);
-  --color-button: rgb(111, 153, 180);
 }
 
 .color-gray1 {
@@ -118,11 +117,10 @@ a:hover {
 .cust-button {
   padding: 0.2rem 1.4rem;
   font-size: 0.9rem;
-  border-radius: 5px;
-  border: 0.1px solid;
-  background-color: var(--color-button);
   color: white;
-  border-color: var(--color-gray1);
+  background-image: linear-gradient(rgb(153, 199, 228), rgb(111, 153, 180));
+  border: 1px solid rgb(82, 118, 140);
+  border-radius: 2px;
 }
 
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
