@@ -4,11 +4,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/429e9e2ae6.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <h1>Hello World!</h1>
+<body class="color-theme">
+
+    <!-- Navbar -->
+    <!-- Put beginning of navbar outside of container to background color covers entire width of page -->
+    <nav class="navbar navbar-expand-lg sticky-top pt-0 pb-0 cust-nav-bg">
+        <!-- Put Navbar content inside of container so that it uses flexbox and has margin on left and right sides -->
+        <div class="container">
+            <a class="navbar-brand m-0 pt-1 cust-jkaros" href="#">JKaros</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="cust-nav-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- Padding is on each link item so that border covers entire navbar -->
+                <li class="nav-item pb-4 pt-5 ml-auto home">
+                    <a class="nav-link active cust-nav-font-color" href="#">HOME <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pb-4 pt-5">
+                    <a class="nav-link cust-nav-font-color" href="#">SERVICE</a>
+                </li>
+                <li class="nav-item pb-4 pt-5">
+                    <a class="nav-link cust-nav-font-color" href="https://github.com/michael-mcmasters"
+                        target="_">PORTFOLIO</a>
+                </li>
+                <li class="nav-item pb-4 pt-5">
+                    <a class="nav-link cust-nav-font-color" href="http://codedifferentlyc16.sg-host.com/"
+                        target="_">ABOUT</a>
+                </li>
+                <li class="nav-item pb-4 pt-5">
+                    <a class="nav-link cust-nav-font-color" href="./blog-post.html">BLOG</a>
+                </li>
+                <li class="nav-item pb-4 pt-5">
+                    <a class="nav-link cust-nav-font-color" href="#">CONTACT</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Footer -->
+    <!-- Like the navbar. Must put background of footer outside of container. Put content in the container so that it uses flexbox and has margins on left and right sides -->
+    <div class="cust-footer-background pt-5 pb-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h6 class="cust-foot-header">POPULAR POSTS</h6>
+                    <div class="cust-footer-border-bottom">
+                        <div class="cust-footer-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                        </div>
+                        <div class="cust-footer-date">10 Oct, 2020</div>
+                    </div>
+                    <div class="cust-footer-border-bottom">
+                        <div class="cust-footer-body">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="cust-footer-date">14 Nov, 2020</div>
+                    </div>
+                    <div>
+                        <div class="cust-footer-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            dolor sit amet consectetur adipisicing dolor sit amet consectetur adipisicing.
+                        </div>
+                        <div class="cust-footer-date">11 April, 2020</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h6 class="cust-foot-header">TWITTER</h6>
+                    <div class="cust-footer-border-bottom">
+                        <div class="cust-footer-body">
+                            <span><i class="fab fa-twitter mr-2"></i></span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            dolor sit. - <a href="#" class="cust-footer-age-url">21 hours ago</a>
+                        </div>
+                    </div>
+                    <div class="cust-footer-border-bottom">
+                        <div class="cust-footer-body">
+                            <span><i class="fab fa-twitter mr-2"></i></span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            dolor sit. - <a href="#" class="cust-footer-age-url">2 days ago</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cust-footer-body">
+                            <span><i class="fab fa-twitter mr-2"></i></span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            dolor sit. - <a href="#" class="cust-footer-age-url">3 days ago</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-3">
+                    <h6 class="cust-foot-header">A LITTLE ABOUT ME</h6>
+                    <div class="cust-footer-body">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti maiores facere, vitae
+                            laudantium fugit.
+                            <br>
+                            <br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias incidunt autem tempora
+                            delectus cupiditate, fuga id voluptatum asperiores explicabo laudantium nam sit porro
+                        </span>
+
+                    </div>
+                </div>
+                <div class="col-3 mr-0 pr-0">
+                    <h6 class="cust-foot-header">CONTACT FORM</h6>
+                    <div class="cust-footer-body">
+                        <form action="contact-form.html" method="post">
+                            <input type="text" id="first-text-box" name="first-text-box" class="cust-footer-input">
+                            <input type="text" id="second-text-box" name="second-text-box" class="cust-footer-input">
+                            <input type="text" id="third-text-box" name="third-text-box"
+                                class="cust-footer-input cust-footer-input-last">
+                        </form>
+                        <button type="submit" class="cust-button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bottom Navbar (under footer) -->
+    <div class="cust-bottom-nav">
+        <div class="container">
+            <div class="row">
+                <div class="cust-nav-content">&#169 2020 Ikaros. Theme inspired by <a href="#"
+                        class="elemis-url">elemis.</a></div>
+                <div class="ml-auto cust-icon-container">
+                    <span>
+                        <i class="fas fa-rss"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-facebook-f"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-twitter twitter-icon"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-pinterest-p"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-linkedin-in"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Copied these from TreeHouse. Not sure if they're needed or not. Remove when project is finished to see if anything breaks. -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
