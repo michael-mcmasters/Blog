@@ -199,10 +199,36 @@ a:hover {
   color: rgb(116, 148, 168);
 }
 
-.fa-rss {
+.cust-icon-container {
   color: white;
-  background-color: orange;
   font-size: 0.9em;
+  cursor: pointer;
+}
+                    
+.fa-rss {
+  background-color: rgb(248, 144, 46);
+  padding: 0.4em;
+}
+.fa-facebook-f {
+  background-color: rgb(57, 89, 159);
+  padding: 0.4em;
+}
+
+/* Use custom class instead of fa-twitter so that this doesn't style twitter icon used elsewhere */
+.twitter-icon {
+  background-color: rgb(69, 176, 227);
+  padding: 0.4em;
+}
+.fa-instagram {
+  background-color: rgb(217, 122, 176);
+  padding: 0.4em;
+}
+.fa-pinterest-p {
+  background-color: rgb(204, 33, 44);
+  padding: 0.4em;
+}
+.fa-linkedin-in {
+  background-color: rgb(83, 143, 228);
   padding: 0.4em;
 }
 
