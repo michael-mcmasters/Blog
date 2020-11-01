@@ -1,0 +1,58 @@
+/* ------- Article Header ------- */
+
+.c-header-container {
+    margin-top: 3rem;
+    width: 100%;
+    height: 5em;
+    display: flex;
+}
+
+.c-date {
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+    min-height: 75px;
+    min-width: 75px;
+    
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Using line height to change horizontal space in-between elements. Because changing marging and padding was not doing anything. */
+    line-height: 1.5rem;
+}
+
+.c-date :nth-child(1) {
+    font-size: 2em;
+}
+
+.c-date :nth-child(2) {
+    font-size: 1em;
+}
+
+.c-title {
+    flex-grow: 1;
+    align-self: center;
+    padding: 1em;
+}
+
+.c-title :nth-child(1) {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 1px dotted rgb(153, 153, 153);
+    padding-bottom: 0.3em;
+}
+
+.c-title :nth-child(2) {
+    color: rgb(153, 153, 153);
+    font-size: 0.7rem;
+    padding-top: 0.3em;
+}
+
+img {
+    width: 100%;
+}
