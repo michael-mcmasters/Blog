@@ -190,9 +190,13 @@ a:hover {
 
 .cust-nav-content {
   /* Add margin to center it. Adding padding to parent div was putting it out of line for some reason. */
-  margin-bottom: 6px;
+  /* margin-bottom: 6px; */
   color: rgb(175, 175, 175);
   font-size: 0.8rem;
+}
+
+.elemis-url {
+  color: rgb(116, 148, 168);
 }
 
 /* Cards Columns don't work with the regular column classes (col-md-4 for example)
