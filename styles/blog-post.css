@@ -1,8 +1,24 @@
-/* ------- Article Header ------- */
+.c-title {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 0.3em;
+}
+
+.c-subtitle {
+    color: rgb(153, 153, 153);
+    font-size: 0.7rem;
+    padding-top: 0.3em;
+}
 
 .c-border-bottom {
     border-bottom: 1px dotted rgb(153, 153, 153);
 }
+
+
+
+
+/* ------- Article Header ------- */
 
 .c-header-container {
     width: 100%;
@@ -37,25 +53,18 @@
     font-size: 1em;
 }
 
-.c-title {
+.c-header-container > :nth-child(2) {
     flex-grow: 1;
     align-self: center;
     padding: 1em;
     padding-right: 0;
 }
 
-.c-title > :nth-child(1) {
-    color: rgb(85, 85, 85);
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding-bottom: 0.3em;
-}
 
-.c-title > :nth-child(2) {
-    color: rgb(153, 153, 153);
-    font-size: 0.7rem;
-    padding-top: 0.3em;
-}
+
+
+
+/* ------- Content Body ------- */
 
 img {
     margin: 2rem 0;
