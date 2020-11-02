@@ -25,6 +25,7 @@ a:hover {
 
 
 
+
 /* Mockup page seems to have different font-sizes for titles. */
 .c-title-small {
       font-size: 0.9rem;
@@ -141,6 +142,9 @@ a:hover {
   background-color: var(--color-black0);
 }
 
+.c-navtab-active {
+  background-color: rgb(53, 55, 58); 
+}
 
 
 
