@@ -6,6 +6,13 @@
     display: flex;
 }
 
+.c-header-title {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 0.3em;
+}
+
 .c-date {
     background-color: rgb(236, 236, 236);
     border-radius: 50%;
@@ -107,7 +114,7 @@
 .c-comment-username {
     color: rgb(85, 85, 85);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.91rem;
     padding-bottom: 0.3em;
 }
 
