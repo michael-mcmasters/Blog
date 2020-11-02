@@ -90,5 +90,42 @@
 
 .c-related-posts-container > img {
     width: 23%;
-    height: 100px;
+    height: 7em;
+}
+
+
+
+
+
+/* ------- Comments ------- */
+
+.c-comment-container {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.c-comment-container > img {
+    width: 5em;
+    height: 5em;
+}
+
+.c-comment-body {
+    padding: 1em 1.3em;
+    margin-left: 1em;
+    width: 100%;
+    background-color: rgb(247, 247, 247);;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.c-comment-username {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 0.3em;
+}
+
+.c-comment-text {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
 }
