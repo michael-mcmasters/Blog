@@ -123,6 +123,7 @@
     flex-direction: column;
 }
 
+.c-input,
 #comment-form > input {
     margin-bottom: 1rem;
     padding-left: 0.7rem;
