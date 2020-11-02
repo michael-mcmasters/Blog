@@ -80,12 +80,10 @@
 
 
 
+
 /* ------- Related Posts ------- */
 
 .c-related-posts-container {
-    
-    margin-bottom: 100px;
-    
     display: flex;
     justify-content: space-between;
 }
