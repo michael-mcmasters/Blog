@@ -24,6 +24,29 @@ a:hover {
 
 
 
+.c-title {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 0.3em;
+}
+
+.c-subtext {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+}
+
+.c-border-bottom {
+    border-bottom: 1px dotted rgb(153, 153, 153);
+}
+
+.c-border-left {
+  border-left: 1px dotted rgb(153, 153, 153);
+}
+
+
+
+
 
 /* ------- Button ------- */
 
