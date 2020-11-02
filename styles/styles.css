@@ -132,9 +132,15 @@ a:hover {
 }
 
 /* Gives Home a border (using box shadow) on its left and right side */
-.home {
+.c-home-li {
   box-shadow: -1px 0px rgb(48, 48, 50), -2px 0px rgb(66, 69, 71), 1px 0px rgb(48, 48, 50),
     2px 0px rgb(66, 69, 71);
+  color: black;
+}
+
+/* Have to do this to override Bootstrap from setting the color when on home page */
+.c-home-color {
+  color: rgb(212, 212, 212);
 }
 
 .nav-item:focus,
@@ -142,8 +148,11 @@ a:hover {
   background-color: var(--color-black0);
 }
 
+/* This is a bit weird. Bootstrap sets the color for Home automatically but we have to put this here manually for Blog */
 .c-navtab-active {
-  background-color: rgb(53, 55, 58); 
+  background-color: rgb(53, 55, 58);
+  color: rgb(122, 156, 178);
+  
 }
 
 
