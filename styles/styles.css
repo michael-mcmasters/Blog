@@ -206,6 +206,15 @@ a:hover {
   height: 200px;
 }
 
+@media (max-width: 767px) {
+  /* When screen is less than this size, categories squish together. This adds margin above each category. */
+  .c-resp-mt {
+    margin-top: 5rem;
+  }
+}
+
+
+
 
 
 
