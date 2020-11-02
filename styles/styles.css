@@ -43,6 +43,13 @@ a:hover {
   cursor: pointer;
 }
 
+/* Do this so text stays centered in button when screen is small. */
+@media (max-width: 991px) {
+  .cust-button {
+    padding: 0.2rem 0;
+  }
+}
+
 
 
 

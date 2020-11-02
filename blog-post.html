@@ -153,9 +153,16 @@
                     <div class="c-title mt-5">
                         Submit a Comment
                     </div>
-                    <div class="c-subtext">
+                    <div class="c-subtext mb-4">
                         Your email address will not be published. Required fields are marked *
                     </div>
+                    <form id="comment-form" action="comment-form" method="post">
+                        <input type="text" name="name" value="name" placeholder="Name *">
+                        <input type="text" name="email" value="email" placeholder="E-mail *">
+                        <input type="text" name="wbesite" value="website" placeholder="Website">
+                        <textarea id="comment" name="comment" value="comment" maxlength="250"></textarea>
+                        <button type="submit" class="cust-button c-form-button">Submit</button>
+                    </form>
                 </div>
             </div>
             <div class="col-md-4">
