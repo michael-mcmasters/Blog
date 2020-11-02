@@ -54,8 +54,10 @@ a:hover {
 }
 
 .c-border-left {
+  padding-left: 2rem;
   border-left: 1px dotted rgb(153, 153, 153);
 }
+
 
 
 

@@ -199,3 +199,12 @@ textarea {
     font-size: 0.7em;
     color: rgb(153, 153, 153);
 }
+
+@media (max-width: 768px) {
+  .c-popular-resp {
+    border: none;
+    margin-left: 0;
+    margin-top: 3rem;
+    padding-left: 0;
+  }
+}
