@@ -21,14 +21,6 @@ a:hover {
   color: teal;
 }
 
-img {
-  transition: opacity 0.2s;
-}
-
-img:hover {
-  cursor: pointer;
-  opacity: 0.9;
-}
 
 
 
