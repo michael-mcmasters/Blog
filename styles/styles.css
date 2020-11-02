@@ -21,7 +21,19 @@ a:hover {
   color: teal;
 }
 
-/* Mockup page seems to have different font-sizes for titles. So this fixes that. */
+img {
+  transition: opacity 0.2s;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+
+
+
+/* Mockup page seems to have different font-sizes for titles. */
 .c-title-small {
       font-size: 0.9rem;
 }
