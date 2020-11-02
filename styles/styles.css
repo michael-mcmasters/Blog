@@ -85,6 +85,7 @@ a:hover {
 @media (max-width: 991px) {
   .cust-button {
     padding: 0.2rem 0;
+    min-width: 15%;
   }
 }
 
