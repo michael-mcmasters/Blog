@@ -5,10 +5,9 @@
 
 .card {
   background-color: var(--color-gray2);
-    position: relative;
+  position: relative;
   left: 0x;
   bottom: 0px;
-  
   
   transition: 0.2s;
 }
