@@ -7,11 +7,11 @@ On the left is the mock up. On the right is the actual website. (Images not to s
 
 <p float="left">
   <img src="/images/blog.png" height="400" width="400" />
-  <img src="/images/blog-actual.png" href="https://main.d3v2gj1l8r9lye.amplifyapp.com/index.html" height="400" width="400" />
+  <img src="/images/blog-actual.png" height="400" width="400"<a href="https://main.d3v2gj1l8r9lye.amplifyapp.com/index.html"></a></img>
 </p>
 <p float="left">
   <img src="/images/blog-post.png" height="400" width="400" />
-  <img src="/images/blog-post-actual.png" href="https://main.d3v2gj1l8r9lye.amplifyapp.com/blog-post.html" height="400" width="400" />
+  <img src="/images/blog-post-actual.png" height="400" width="400"><a href="https://main.d3v2gj1l8r9lye.amplifyapp.com/blog-post.html"></a></img>
 </p>
 
 
