@@ -1,17 +1,17 @@
 # Blog
 
-My implementation website that comes from a mock up. The website uses Bootstrap grids, CSS variables, is responsive and has smooth transitions.
+My implementation website that comes from a mock up.<br>
+The website uses Bootstrap grids, CSS variables, is responsive and has smooth transitions.
 
-On the left is the mock up. On the right is the actual website.<br>
-The scale is a bit off because the mockup shows the entire site while the right images show the page as the user would see it.
+On the left is the mock up. On the right is the actual website. (Images not to scale.)<br>
 
-<p align="middle">
-  <img src="/images/blog.png" height="400" width="460" />
-  <img src="/images/blog-actual.png" height="400" width="460" />
+<p float="left">
+  <img src="/images/blog.png" height="400" width="400" />
+  <img src="/images/blog-actual.png" height="400" width="400" />
 </p>
-<p align="middle">
-  <img src="/images/blog-post.png" height="400" width="460" />
-  <img src="/images/blog-post-actual.png" height="400" width="460" />
+<p float="left">
+  <img src="/images/blog-post.png" height="400" width="400" />
+  <img src="/images/blog-post-actual.png" height="400" width="400" />
 </p>
 
 
