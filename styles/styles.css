@@ -155,7 +155,6 @@ a:hover {
 
 /* This is a bit weird. Bootstrap sets the color for Home automatically but we have to put this here manually for Blog */
 .c-navtab-active {
-  background-color: rgb(53, 55, 58);
   color: rgb(122, 156, 178);
   
 }
