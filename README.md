@@ -1,6 +1,6 @@
 # Blog
 
-My implementation of a mock up.<br>
+My implementation website of a mock up.<br>
 The website uses Bootstrap grids, CSS variables, is responsive and has smooth transitions.
 
 On the left is the mock up. On the right is the actual website. (Images not to scale.)<br>
