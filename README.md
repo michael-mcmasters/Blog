@@ -1,10 +1,5 @@
 # Blog
 
-## Live Site
-The website is deployed using AWS Amplify.<br>
-[Homepage.](https://main.d3v2gj1l8r9lye.amplifyapp.com/index.html)<br>
-[Blog.](https://main.d3v2gj1l8r9lye.amplifyapp.com/blog-post.html)
-
 # About
 
 My implementation website of a mock up.<br>
